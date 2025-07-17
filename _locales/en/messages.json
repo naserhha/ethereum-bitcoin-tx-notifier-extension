@@ -1,0 +1,266 @@
+{
+  "appName": {
+    "message": "Ethereum & Bitcoin Crypto Transaction Notifier",
+    "description": "Extension name"
+  },
+  "configurationTitle": {
+    "message": "Configuration",
+    "description": "Configuration section title"
+  },
+  "ethereumTitle": {
+    "message": "Ethereum (ETH)",
+    "description": "Ethereum section title"
+  },
+  "bitcoinTitle": {
+    "message": "Bitcoin (BTC)",
+    "description": "Bitcoin section title"
+  },
+  "ethAddressLabel": {
+    "message": "Ethereum Address:",
+    "description": "Ethereum address input label"
+  },
+  "btcAddressLabel": {
+    "message": "Bitcoin Address:",
+    "description": "Bitcoin address input label"
+  },
+  "ethAddressPlaceholder": {
+    "message": "0x1234567890abcdef...",
+    "description": "Ethereum address placeholder"
+  },
+  "btcAddressPlaceholder": {
+    "message": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh...",
+    "description": "Bitcoin address placeholder"
+  },
+  "apiKeyTitle": {
+    "message": "Etherscan API Key (Required for ETH)",
+    "description": "API key section title"
+  },
+  "apiKeyPlaceholder": {
+    "message": "Your Etherscan API key...",
+    "description": "API key input placeholder"
+  },
+  "getApiKeyLink": {
+    "message": "Get Free API Key",
+    "description": "Link text to get API key"
+  },
+  "apiKeyNote": {
+    "message": "(Required for Ethereum monitoring)",
+    "description": "Note about API key requirement"
+  },
+  "saveConfigButton": {
+    "message": "Save Configuration",
+    "description": "Save configuration button text"
+  },
+  "savingButton": {
+    "message": "Saving...",
+    "description": "Saving button text"
+  },
+  "clearConfigButton": {
+    "message": "Clear All",
+    "description": "Clear configuration button text"
+  },
+  "monitoringTitle": {
+    "message": "Monitoring Status",
+    "description": "Monitoring status section title"
+  },
+  "ethStatusLabel": {
+    "message": "ETH Address:",
+    "description": "Ethereum status label"
+  },
+  "btcStatusLabel": {
+    "message": "BTC Address:",
+    "description": "Bitcoin status label"
+  },
+  "apiKeyStatusLabel": {
+    "message": "API Key:",
+    "description": "API key status label"
+  },
+  "ethMonitoringLabel": {
+    "message": "ETH Monitoring:",
+    "description": "Ethereum monitoring status label"
+  },
+  "btcMonitoringLabel": {
+    "message": "BTC Monitoring:",
+    "description": "Bitcoin monitoring status label"
+  },
+  "lastCheckLabel": {
+    "message": "Last Check:",
+    "description": "Last check time label"
+  },
+  "errorTitle": {
+    "message": "Error Status",
+    "description": "Error status section title"
+  },
+  "rateLimitLabel": {
+    "message": "Rate Limited:",
+    "description": "Rate limit status label"
+  },
+  "consecutiveErrorsLabel": {
+    "message": "Consecutive Errors:",
+    "description": "Consecutive errors label"
+  },
+  "howItWorksTitle": {
+    "message": "How it works:",
+    "description": "How it works section title"
+  },
+  "howItWorksStep1": {
+    "message": "Enter your Ethereum and/or Bitcoin addresses",
+    "description": "Step 1 of how it works"
+  },
+  "howItWorksStep2": {
+    "message": "Enter your Etherscan API key (required for ETH)",
+    "description": "Step 2 of how it works"
+  },
+  "howItWorksStep3": {
+    "message": "Enable monitoring for ETH and/or BTC",
+    "description": "Step 3 of how it works"
+  },
+  "howItWorksStep4": {
+    "message": "Extension checks for new transactions every minute",
+    "description": "Step 4 of how it works"
+  },
+  "howItWorksStep5": {
+    "message": "Get browser notifications for new transactions",
+    "description": "Step 5 of how it works"
+  },
+  "howItWorksStep6": {
+    "message": "Click notifications to view on blockchain explorer",
+    "description": "Step 6 of how it works"
+  },
+  "privacyTitle": {
+    "message": "Privacy & Security",
+    "description": "Privacy section title"
+  },
+  "privacyLocal": {
+    "message": "✅ All data stored locally in your browser",
+    "description": "Privacy note about local storage"
+  },
+  "privacyNoServers": {
+    "message": "✅ No external servers - works entirely client-side",
+    "description": "Privacy note about no external servers"
+  },
+  "privacyApiKey": {
+    "message": "✅ Your API key never sent to external servers",
+    "description": "Privacy note about API key security"
+  },
+  "privacyHttps": {
+    "message": "✅ All API calls use secure HTTPS connections",
+    "description": "Privacy note about HTTPS"
+  },
+  "footerText": {
+    "message": "Secure • Local Storage • No External Servers",
+    "description": "Footer text"
+  },
+  "validEthAddressMessage": {
+    "message": "✅ Valid Ethereum address",
+    "description": "Valid Ethereum address message"
+  },
+  "invalidEthAddressMessage": {
+    "message": "❌ Invalid Ethereum address format",
+    "description": "Invalid Ethereum address message"
+  },
+  "validBtcAddressMessage": {
+    "message": "✅ Valid Bitcoin address",
+    "description": "Valid Bitcoin address message"
+  },
+  "invalidBtcAddressMessage": {
+    "message": "❌ Invalid Bitcoin address format",
+    "description": "Invalid Bitcoin address message"
+  },
+  "noMonitoringEnabledError": {
+    "message": "Please enable monitoring for at least one blockchain",
+    "description": "Error when no monitoring is enabled"
+  },
+  "enterEthAddressError": {
+    "message": "Please enter an Ethereum address",
+    "description": "Error when Ethereum address is missing"
+  },
+  "invalidEthAddressError": {
+    "message": "Please enter a valid Ethereum address",
+    "description": "Error when Ethereum address is invalid"
+  },
+  "enterBtcAddressError": {
+    "message": "Please enter a Bitcoin address",
+    "description": "Error when Bitcoin address is missing"
+  },
+  "invalidBtcAddressError": {
+    "message": "Please enter a valid Bitcoin address",
+    "description": "Error when Bitcoin address is invalid"
+  },
+  "enterApiKeyError": {
+    "message": "Please enter your Etherscan API key",
+    "description": "Error when API key is missing"
+  },
+  "invalidApiKeyError": {
+    "message": "Please enter a valid API key",
+    "description": "Error when API key is invalid"
+  },
+  "configSavedSuccess": {
+    "message": "Configuration saved successfully!",
+    "description": "Success message when config is saved"
+  },
+  "configClearedSuccess": {
+    "message": "Configuration cleared successfully!",
+    "description": "Success message when config is cleared"
+  },
+  "saveError": {
+    "message": "Error saving configuration",
+    "description": "Error message when save fails"
+  },
+  "clearError": {
+    "message": "Error clearing configuration",
+    "description": "Error message when clear fails"
+  },
+  "apiTestSuccess": {
+    "message": "API connection test successful",
+    "description": "Success message for API test"
+  },
+  "apiTestError": {
+    "message": "API connection test failed",
+    "description": "Error message for API test"
+  },
+  "newEthTransactionTitle": {
+    "message": "New Ethereum Transaction",
+    "description": "Title for new Ethereum transaction notification"
+  },
+  "ethTransactionDetailsMessage": {
+    "message": "Hash: $1\nAmount: $2\nType: $3",
+    "description": "Message for Ethereum transaction notification"
+  },
+  "newBtcTransactionTitle": {
+    "message": "New Bitcoin Transaction",
+    "description": "Title for new Bitcoin transaction notification"
+  },
+  "btcTransactionDetailsMessage": {
+    "message": "Hash: $1\nAmount: $2\nType: $3",
+    "description": "Message for Bitcoin transaction notification"
+  },
+  "rateLimitTitle": {
+    "message": "Rate Limited",
+    "description": "Title for rate limit notification"
+  },
+  "rateLimitMessage": {
+    "message": "API rate limit reached. Monitoring paused for 1 minute.",
+    "description": "Message for rate limit notification"
+  },
+  "invalidApiKeyTitle": {
+    "message": "Invalid API Key",
+    "description": "Title for invalid API key notification"
+  },
+  "invalidApiKeyMessage": {
+    "message": "Your Etherscan API key appears to be invalid. Please check and update it.",
+    "description": "Message for invalid API key notification"
+  },
+  "tooManyErrorsTitle": {
+    "message": "Too Many Errors",
+    "description": "Title for too many errors notification"
+  },
+  "tooManyErrorsMessage": {
+    "message": "Too many consecutive errors. Monitoring paused temporarily.",
+    "description": "Message for too many errors notification"
+  },
+  "btcValidGuidance": {
+    "message": "Bitcoin address is valid. To start using the extension, please click 'Save Configuration'.",
+    "description": "User guidance for saving config after entering a valid BTC address"
+  }
+} 

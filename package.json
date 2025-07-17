@@ -1,0 +1,49 @@
+{
+  "name": "blockchain-tx-notifier",
+  "version": "1.0.0",
+  "description": "A Chrome Extension (Manifest V3) that monitors Ethereum wallet addresses and sends browser notifications when new transactions are detected",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Open test-extension.html in Chrome to test the extension\"",
+    "build": "echo \"Extension is ready to load as unpacked extension\"",
+    "icons": "echo \"Open create_icons.html to generate icons\""
+  },
+  "keywords": [
+    "chrome-extension",
+    "blockchain",
+    "ethereum",
+    "notifications",
+    "manifest-v3",
+    "etherscan",
+    "wallet-monitoring"
+  ],
+  "author": "Blockchain TX Notifier Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/blockchain-tx-notifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/blockchain-tx-notifier/issues"
+  },
+  "homepage": "https://github.com/yourusername/blockchain-tx-notifier#readme",
+  "engines": {
+    "chrome": ">=88.0.0"
+  },
+  "manifest": {
+    "version": 3,
+    "permissions": [
+      "notifications",
+      "storage",
+      "alarms"
+    ],
+    "host_permissions": [
+      "https://api.etherscan.io/*"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "browserslist": [
+    "chrome >= 88"
+  ]
+} 

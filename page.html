@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ethereum & Bitcoin Crypto Transaction Notifier</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="icon" type="image/svg+xml" href="icons/icon64.svg">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="icons/icon512.png" alt="Logo" class="logo">
+            <h1 data-i18n="appName">Ethereum & Bitcoin Crypto Transaction Notifier</h1>
+            <div class="language-switcher">
+                <button id="languageBtn" class="language-btn" title="Change Language">
+                    🌐
+                </button>
+                <div class="language-dropdown" id="languageDropdown">
+                    <div class="language-option" data-lang="en">🇺🇸 English</div>
+                    <div class="language-option" data-lang="fa">🇮🇷 فارسی</div>
+                    <div class="language-option" data-lang="ar">🇸🇦 العربية</div>
+                    <div class="language-option" data-lang="ru">🇷🇺 Русский</div>
+                    <div class="language-option" data-lang="zh">🇨🇳 中文</div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="statusMessage" class="status-message"></div>
+            <div id="currentConfig" class="current-config modern-config" style="display: none;"></div>
+            <!-- Configuration Section -->
+            <div class="config-section">
+                <h3 data-i18n="configurationTitle">Configuration</h3>
+                
+                <!-- Ethereum Configuration -->
+                <div class="blockchain-section">
+                    <div class="blockchain-header">
+                        <h4 data-i18n="ethereumTitle">Ethereum (ETH)</h4>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="ethEnabled">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    
+                    <div class="input-section">
+                        <label for="ethAddress" data-i18n="ethAddressLabel">Ethereum Address:</label>
+                        <input 
+                            type="text" 
+                            id="ethAddress" 
+                            data-i18n-placeholder="ethAddressPlaceholder"
+                            placeholder="0x1234567890abcdef..."
+                            maxlength="42"
+                        >
+                        <div class="address-validation" id="ethAddressValidation"></div>
+                    </div>
+                </div>
+
+                <!-- Bitcoin Configuration -->
+                <div class="blockchain-section">
+                    <div class="blockchain-header">
+                        <h4 data-i18n="bitcoinTitle">Bitcoin (BTC)</h4>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="btcEnabled">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    
+                    <div class="input-section">
+                        <label for="btcAddress" data-i18n="btcAddressLabel">Bitcoin Address:</label>
+                        <input 
+                            type="text" 
+                            id="btcAddress" 
+                            data-i18n-placeholder="btcAddressPlaceholder"
+                            placeholder="bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh..."
+                            maxlength="90"
+                        >
+                        <div class="address-validation" id="btcAddressValidation"></div>
+                    </div>
+                </div>
+
+                <!-- API Key Section -->
+                <div class="api-section">
+                    <h4 data-i18n="apiKeyTitle">Etherscan API Key (Required for ETH)</h4>
+                    <div class="input-section">
+                        <div class="api-key-container">
+                            <input 
+                                type="password" 
+                                id="apiKey" 
+                                data-i18n-placeholder="apiKeyPlaceholder"
+                                placeholder="Your Etherscan API key..."
+                            >
+                            <button type="button" id="toggleApiKey" class="toggle-btn" title="Show/Hide API Key">
+                                👁️
+                            </button>
+                        </div>
+                        <div class="api-key-info">
+                            <a href="https://etherscan.io/myapikey" target="_blank" data-i18n="getApiKeyLink">Get Free API Key</a>
+                            <span class="api-note" data-i18n="apiKeyNote">(Required for Ethereum monitoring)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="button-section">
+                    <button id="saveConfig" class="btn btn-primary">
+                        <span class="btn-text" data-i18n="saveConfigButton">Save Configuration</span>
+                        <span class="btn-loading" data-i18n="savingButton" style="display: none;">Saving...</span>
+                    </button>
+                    <button id="clearConfig" class="btn btn-secondary" data-i18n="clearConfigButton">
+                        Clear All
+                    </button>
+                </div>
+            </div>
+
+            <!-- Status Section -->
+            <div class="status-section">
+                <h3 data-i18n="status">Status</h3>
+                <div class="status-grid">
+                    <div class="status-item">
+                        <span class="status-label">ETH Address:</span>
+                        <span id="ethStatus" class="status-value">-</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">BTC Address:</span>
+                        <span id="btcStatus" class="status-value">-</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">API Key:</span>                   <span id="apiKeyStatus" class="status-value">-</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">ETH Monitoring:</span>
+                        <span id="ethMonitoringStatus" class="status-value">-</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">BTC Monitoring:</span>
+                        <span id="btcMonitoringStatus" class="status-value">-</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">Last Check:</span>
+                        <span id="lastCheckStatus" class="status-value">-</span>
+                    </div>
+                </div>
+                
+                <div id="errorSection" class="error-section" style="display: none;">
+                    <div class="status-item">
+                        <span class="status-label">Rate Limited:</span>
+                        <span id="rateLimitStatus" class="error-value">-</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">Consecutive Errors:</span>
+                        <span id="consecutiveErrorsStatus" class="error-value">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Transactions Section -->
+            <div class="transactions-section">
+                <h3 data-i18n="recentTransactions">Recent Transactions</h3>
+                
+                <!-- Ethereum Transactions -->
+                <div class="transaction-group">
+                    <h4 data-i18n="ethereumTransactions">Ethereum Transactions</h4>
+                    <div id="ethTransactionsList" class="transactions-list">
+                        <div class="no-transactions" data-i18n="noTransactions">No transactions found</div>
+                    </div>
+                </div>
+                
+                <!-- Bitcoin Transactions -->
+                <div class="transaction-group">
+                    <h4 data-i18n="bitcoinTransactions">Bitcoin Transactions</h4>
+                    <div id="btcTransactionsList" class="transactions-list">
+                        <div class="no-transactions" data-i18n="noTransactions">No transactions found</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Info Section -->
+            <div class="info-section">
+                <h3 data-i18n="howItWorksTitle">How it works:</h3>
+                <ul>
+                    <li data-i18n="howItWorksStep1">Enter your Ethereum and/or Bitcoin addresses</li>
+                    <li data-i18n="howItWorksStep2">Enter your Etherscan API key (required for ETH)</li>
+                    <li data-i18n="howItWorksStep3">Enable monitoring for ETH and/or BTC</li>
+                    <li data-i18n="howItWorksStep4">Extension checks for new transactions every minute</li>
+                    <li data-i18n="howItWorksStep5">Get browser notifications for new transactions</li>
+                    <li data-i18n="howItWorksStep6">Click notifications to view on blockchain explorer</li>
+                </ul>
+            </div>
+
+            <!-- Privacy Notice -->
+            <div class="privacy-section">
+                <h3 data-i18n="privacyTitle">Privacy & Security</h3>
+                <ul>
+                    <li data-i18n="privacyLocal">✅ All data stored locally in your browser</li>
+                    <li data-i18n="privacyNoServers">✅ No external servers - works entirely client-side</li>
+                    <li data-i18n="privacyApiKey">✅ Your API key never sent to external servers</li>
+                    <li data-i18n="privacyHttps">✅ All API calls use secure HTTPS connections</li>
+                </ul>
+            </div>
+
+            <div class="quick-links-bar">
+  <a href="home.html" class="quick-link" title="Home" target="_blank" rel="noopener">🏠<span>Home</span></a>
+  <a href="about.html" class="quick-link" title="About Developer" target="_blank" rel="noopener">🌐<span>About Developer</span></a>
+  <a href="github.html" class="quick-link" title="GitHub" target="_blank" rel="noopener">🐙<span>GitHub</span></a>
+  <a href="privacy.html" class="quick-link" title="Privacy Policy" target="_blank" rel="noopener">🔒<span>Privacy Policy</span></a>
+  <a href="terms.html" class="quick-link" title="Terms of Service" target="_blank" rel="noopener">📋<span>Terms of Service</span></a>
+  <a href="license.html" class="quick-link" title="License" target="_blank" rel="noopener">⚖️<span>License</span></a>
+  <a href="contributing.html" class="quick-link" title="Contributing" target="_blank" rel="noopener">🤝<span>Contributing</span></a>
+  <a href="security.html" class="quick-link" title="Security & Privacy" target="_blank" rel="noopener">🔒<span>Security & Privacy</span></a>
+</div>
+
+            <div class="footer-links" style="display:flex;flex-wrap:wrap;justify-content:center;gap:16px;margin-bottom:8px;">
+  <a href="https://github.com/nasserhaji" target="_blank" rel="noopener">GitHub Profile</a>
+  <a href="https://ir.linkedin.com/in/nasserhaji" target="_blank" rel="noopener">LinkedIn</a>
+  <a href="https://nasserhaji.medium.com" target="_blank" rel="noopener">Medium</a>
+  <a href="https://www.instagram.com/mohammadnasserhaji" target="_blank" rel="noopener">Instagram</a>
+  <a href="https://t.me/mohammadnasserhaji" target="_blank" rel="noopener">Telegram</a>
+  <a href="https://x.com/mnasserhaji" target="_blank" rel="noopener">X (Twitter)</a>
+  <a href="mailto:info@mohammadnasser.com" target="_blank" rel="noopener">Email</a>
+</div>
+<div style="text-align:center;font-size:12px;margin-bottom:4px;">Copyright (c) 2025 Mohammad Nasser Haji Hashemabad</div>
+<div style="text-align:center;font-size:0.98em;margin-bottom:6px;">Ethereum & Bitcoin Crypto Transaction Notifier &bull; Secure &bull; Open Source &bull; Real-Time Notifications</div>
+<p style="text-align:center; font-size:0.98em; margin-bottom:6px;">Secure &bull; Local Storage &bull; No External Servers</p>
+<div style="text-align:center;font-size:11px;"><a href="mailto:info@mohammadnasser.com" title="Contact the developer" target="_blank" rel="noopener">Contact the developer: Mohammad Nasser Haji Hashemabad</a></div>
+
+        
+        </main>
+    </div>
+
+    <script src="translations.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html> 

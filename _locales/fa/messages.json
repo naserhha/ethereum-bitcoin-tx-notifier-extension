@@ -1,0 +1,258 @@
+{
+  "appName": {
+    "message": "اعلان‌دهنده تراکنش‌های اتریوم و بیت‌کوین",
+    "description": "نام افزونه"
+  },
+  "configurationTitle": {
+    "message": "تنظیمات",
+    "description": "عنوان بخش تنظیمات"
+  },
+  "ethereumTitle": {
+    "message": "اتریوم (ETH)",
+    "description": "عنوان بخش اتریوم"
+  },
+  "bitcoinTitle": {
+    "message": "بیت‌کوین (BTC)",
+    "description": "عنوان بخش بیت‌کوین"
+  },
+  "ethAddressLabel": {
+    "message": "آدرس اتریوم:",
+    "description": "برچسب ورودی آدرس اتریوم"
+  },
+  "btcAddressLabel": {
+    "message": "آدرس بیت‌کوین:",
+    "description": "برچسب ورودی آدرس بیت‌کوین"
+  },
+  "ethAddressPlaceholder": {
+    "message": "0x1234567890abcdef...",
+    "description": "متن نگهدارنده آدرس اتریوم"
+  },
+  "btcAddressPlaceholder": {
+    "message": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh...",
+    "description": "متن نگهدارنده آدرس بیت‌کوین"
+  },
+  "apiKeyTitle": {
+    "message": "کلید API اتراسکن (مورد نیاز برای ETH)",
+    "description": "عنوان بخش کلید API"
+  },
+  "apiKeyPlaceholder": {
+    "message": "کلید API اتراسکن شما...",
+    "description": "متن نگهدارنده کلید API"
+  },
+  "getApiKeyLink": {
+    "message": "دریافت کلید API رایگان",
+    "description": "متن لینک برای دریافت کلید API"
+  },
+  "apiKeyNote": {
+    "message": "(مورد نیاز برای نظارت اتریوم)",
+    "description": "یادداشت درباره نیاز به کلید API"
+  },
+  "saveConfigButton": {
+    "message": "ذخیره تنظیمات",
+    "description": "متن دکمه ذخیره تنظیمات"
+  },
+  "savingButton": {
+    "message": "در حال ذخیره...",
+    "description": "متن دکمه هنگام ذخیره"
+  },
+  "clearConfigButton": {
+    "message": "پاک کردن همه",
+    "description": "متن دکمه پاک کردن تنظیمات"
+  },
+  "monitoringTitle": {
+    "message": "وضعیت نظارت",
+    "description": "عنوان بخش وضعیت نظارت"
+  },
+  "ethStatusLabel": {
+    "message": "آدرس ETH:",
+    "description": "برچسب وضعیت اتریوم"
+  },
+  "btcStatusLabel": {
+    "message": "آدرس BTC:",
+    "description": "برچسب وضعیت بیت‌کوین"
+  },
+  "apiKeyStatusLabel": {
+    "message": "کلید API:",
+    "description": "برچسب وضعیت کلید API"
+  },
+  "ethMonitoringLabel": {
+    "message": "نظارت ETH:",
+    "description": "برچسب وضعیت نظارت اتریوم"
+  },
+  "btcMonitoringLabel": {
+    "message": "نظارت BTC:",
+    "description": "برچسب وضعیت نظارت بیت‌کوین"
+  },
+  "lastCheckLabel": {
+    "message": "آخرین بررسی:",
+    "description": "برچسب زمان آخرین بررسی"
+  },
+  "errorTitle": {
+    "message": "وضعیت خطا",
+    "description": "عنوان بخش وضعیت خطا"
+  },
+  "rateLimitLabel": {
+    "message": "محدودیت نرخ:",
+    "description": "برچسب وضعیت محدودیت نرخ"
+  },
+  "consecutiveErrorsLabel": {
+    "message": "خطاهای متوالی:",
+    "description": "برچسب خطاهای متوالی"
+  },
+  "howItWorksTitle": {
+    "message": "نحوه کار:",
+    "description": "عنوان بخش نحوه کار"
+  },
+  "howItWorksStep1": {
+    "message": "آدرس‌های اتریوم و/یا بیت‌کوین خود را وارد کنید",
+    "description": "مرحله اول نحوه کار"
+  },
+  "howItWorksStep2": {
+    "message": "کلید API اتراسکن خود را وارد کنید (مورد نیاز برای ETH)",
+    "description": "مرحله دوم نحوه کار"
+  },
+  "howItWorksStep3": {
+    "message": "نظارت را برای ETH و/یا BTC فعال کنید",
+    "description": "مرحله سوم نحوه کار"
+  },
+  "howItWorksStep4": {
+    "message": "افزونه هر دقیقه تراکنش‌های جدید را بررسی می‌کند",
+    "description": "مرحله چهارم نحوه کار"
+  },
+  "howItWorksStep5": {
+    "message": "اعلان‌های مرورگر برای تراکنش‌های جدید دریافت کنید",
+    "description": "مرحله پنجم نحوه کار"
+  },
+  "howItWorksStep6": {
+    "message": "روی اعلان‌ها کلیک کنید تا در کاوشگر بلاکچین مشاهده کنید",
+    "description": "مرحله ششم نحوه کار"
+  },
+  "privacyTitle": {
+    "message": "حریم خصوصی و امنیت",
+    "description": "عنوان بخش حریم خصوصی"
+  },
+  "privacyLocal": {
+    "message": "✅ تمام داده‌ها محلی در مرورگر شما ذخیره می‌شوند",
+    "description": "یادداشت حریم خصوصی درباره ذخیره محلی"
+  },
+  "privacyNoServers": {
+    "message": "✅ بدون سرور خارجی - کاملاً سمت کلاینت کار می‌کند",
+    "description": "یادداشت حریم خصوصی درباره عدم سرور خارجی"
+  },
+  "privacyApiKey": {
+    "message": "✅ کلید API شما هرگز به سرورهای خارجی ارسال نمی‌شود",
+    "description": "یادداشت حریم خصوصی درباره امنیت کلید API"
+  },
+  "privacyHttps": {
+    "message": "✅ تمام فراخوانی‌های API از اتصالات امن HTTPS استفاده می‌کنند",
+    "description": "یادداشت حریم خصوصی درباره HTTPS"
+  },
+  "footerText": {
+    "message": "امن • ذخیره محلی • بدون سرور خارجی",
+    "description": "متن فوتر"
+  },
+  "validEthAddressMessage": {
+    "message": "✅ آدرس اتریوم معتبر",
+    "description": "پیام آدرس اتریوم معتبر"
+  },
+  "invalidEthAddressMessage": {
+    "message": "❌ فرمت آدرس اتریوم نامعتبر",
+    "description": "پیام آدرس اتریوم نامعتبر"
+  },
+  "validBtcAddressMessage": {
+    "message": "✅ آدرس بیت‌کوین معتبر",
+    "description": "پیام آدرس بیت‌کوین معتبر"
+  },
+  "invalidBtcAddressMessage": {
+    "message": "❌ فرمت آدرس بیت‌کوین نامعتبر",
+    "description": "پیام آدرس بیت‌کوین نامعتبر"
+  },
+  "btcValidGuidance": {
+    "message": "آدرس بیت‌کوین معتبر است. برای شروع کار اکستنشن، لطفاً روی \"ذخیره تنظیمات\" کلیک کنید.",
+    "description": "راهنمای کاربر برای ذخیره تنظیمات پس از وارد کردن آدرس بیت‌کوین معتبر"
+  },
+  "noMonitoringEnabledError": {
+    "message": "لطفاً نظارت را حداقل برای یک بلاکچین فعال کنید",
+    "description": "خطا هنگام عدم فعال بودن نظارت"
+  },
+  "enterEthAddressError": {
+    "message": "لطفاً آدرس اتریوم وارد کنید",
+    "description": "خطا هنگام عدم وجود آدرس اتریوم"
+  },
+  "invalidEthAddressError": {
+    "message": "لطفاً آدرس اتریوم معتبر وارد کنید",
+    "description": "خطا هنگام نامعتبر بودن آدرس اتریوم"
+  },
+  "enterBtcAddressError": {
+    "message": "لطفاً آدرس بیت‌کوین وارد کنید",
+    "description": "خطا هنگام عدم وجود آدرس بیت‌کوین"
+  },
+  "invalidBtcAddressError": {
+    "message": "لطفاً آدرس بیت‌کوین معتبر وارد کنید",
+    "description": "خطا هنگام نامعتبر بودن آدرس بیت‌کوین"
+  },
+  "enterApiKeyError": {
+    "message": "لطفاً کلید API اتراسکن خود را وارد کنید",
+    "description": "خطا هنگام عدم وجود کلید API"
+  },
+  "invalidApiKeyError": {
+    "message": "لطفاً کلید API معتبر وارد کنید",
+    "description": "خطا هنگام نامعتبر بودن کلید API"
+  },
+  "configSavedSuccess": {
+    "message": "تنظیمات با موفقیت ذخیره شد!",
+    "description": "پیام موفقیت هنگام ذخیره تنظیمات"
+  },
+  "configClearedSuccess": {
+    "message": "تنظیمات با موفقیت پاک شد!",
+    "description": "پیام موفقیت هنگام پاک کردن تنظیمات"
+  },
+  "saveError": {
+    "message": "خطا در ذخیره تنظیمات",
+    "description": "پیام خطا هنگام شکست در ذخیره"
+  },
+  "clearError": {
+    "message": "خطا در پاک کردن تنظیمات",
+    "description": "پیام خطا هنگام شکست در پاک کردن"
+  },
+  "apiTestSuccess": {
+    "message": "تست اتصال API موفقیت‌آمیز بود",
+    "description": "پیام موفقیت برای تست API"
+  },
+  "apiTestError": {
+    "message": "تست اتصال API ناموفق بود",
+    "description": "پیام خطا برای تست API"
+  },
+  "newEthTransactionTitle": {
+    "message": "تراکنش جدید اتریوم",
+    "description": "عنوان اعلان برای تراکنش جدید اتریوم"
+  },
+  "ethTransactionDetailsMessage": {
+    "message": "هش: $1\nمقدار: $2\nنوع: $3",
+    "description": "پیام اعلان تراکنش اتریوم"
+  },
+  "newBtcTransactionTitle": {
+    "message": "تراکنش جدید بیت‌کوین",
+    "description": "عنوان اعلان برای تراکنش جدید بیت‌کوین"
+  },
+  "btcTransactionDetailsMessage": {
+    "message": "هش: $1\nمقدار: $2\nنوع: $3",
+    "description": "پیام اعلان تراکنش بیت‌کوین"
+  },
+  "rateLimitTitle": {
+    "message": "محدودیت نرخ",
+    "description": "عنوان اعلان محدودیت نرخ"
+  },
+  "rateLimitMessage": {
+    "message": "محدودیت نرخ API رسیده است. نظارت برای 1 دقیقه متوقف شد.",
+    "description": "پیام اعلان محدودیت نرخ"
+  },
+  "invalidApiKeyTitle": {
+    "message": "کلید API نامعتبر",
+    "description": "عنوان اعلان کلید API نامعتبر"
+  },
+  "invalidApiKeyMessage": {
+    "message": "کلید API شما نامعتبر است. لطفاً کلید معتبر وارد کنید.",
+    "description": "پیام اعلان کلید API نامعتبر"
+  }
+} 

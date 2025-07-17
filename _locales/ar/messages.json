@@ -1,0 +1,258 @@
+{
+  "appName": {
+    "message": "منبه معاملات الإيثيريوم والبيتكوين",
+    "description": "اسم الإضافة"
+  },
+  "configurationTitle": {
+    "message": "الإعدادات",
+    "description": "عنوان قسم الإعدادات"
+  },
+  "ethereumTitle": {
+    "message": "الإيثيريوم (ETH)",
+    "description": "عنوان قسم الإيثيريوم"
+  },
+  "bitcoinTitle": {
+    "message": "البيتكوين (BTC)",
+    "description": "عنوان قسم البيتكوين"
+  },
+  "ethAddressLabel": {
+    "message": "عنوان الإيثيريوم:",
+    "description": "تسمية حقل عنوان الإيثيريوم"
+  },
+  "btcAddressLabel": {
+    "message": "عنوان البيتكوين:",
+    "description": "تسمية حقل عنوان البيتكوين"
+  },
+  "ethAddressPlaceholder": {
+    "message": "0x1234567890abcdef...",
+    "description": "نص مؤقت لعنوان الإيثيريوم"
+  },
+  "btcAddressPlaceholder": {
+    "message": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh...",
+    "description": "نص مؤقت لعنوان البيتكوين"
+  },
+  "apiKeyTitle": {
+    "message": "مفتاح API إيثيرسكان (مطلوب للإيثيريوم)",
+    "description": "عنوان قسم مفتاح API"
+  },
+  "apiKeyPlaceholder": {
+    "message": "مفتاح API إيثيرسكان الخاص بك...",
+    "description": "نص مؤقت لمفتاح API"
+  },
+  "getApiKeyLink": {
+    "message": "احصل على مفتاح API مجاني",
+    "description": "نص الرابط للحصول على مفتاح API"
+  },
+  "apiKeyNote": {
+    "message": "(مطلوب لمراقبة الإيثيريوم)",
+    "description": "ملاحظة حول متطلبات مفتاح API"
+  },
+  "saveConfigButton": {
+    "message": "حفظ الإعدادات",
+    "description": "نص زر حفظ الإعدادات"
+  },
+  "savingButton": {
+    "message": "جاري الحفظ...",
+    "description": "نص الزر أثناء الحفظ"
+  },
+  "clearConfigButton": {
+    "message": "مسح الكل",
+    "description": "نص زر مسح الإعدادات"
+  },
+  "monitoringTitle": {
+    "message": "حالة المراقبة",
+    "description": "عنوان قسم حالة المراقبة"
+  },
+  "ethStatusLabel": {
+    "message": "عنوان ETH:",
+    "description": "تسمية حالة الإيثيريوم"
+  },
+  "btcStatusLabel": {
+    "message": "عنوان BTC:",
+    "description": "تسمية حالة البيتكوين"
+  },
+  "apiKeyStatusLabel": {
+    "message": "مفتاح API:",
+    "description": "تسمية حالة مفتاح API"
+  },
+  "ethMonitoringLabel": {
+    "message": "مراقبة ETH:",
+    "description": "تسمية حالة مراقبة الإيثيريوم"
+  },
+  "btcMonitoringLabel": {
+    "message": "مراقبة BTC:",
+    "description": "تسمية حالة مراقبة البيتكوين"
+  },
+  "lastCheckLabel": {
+    "message": "آخر فحص:",
+    "description": "تسمية وقت آخر فحص"
+  },
+  "errorTitle": {
+    "message": "حالة الخطأ",
+    "description": "عنوان قسم حالة الخطأ"
+  },
+  "rateLimitLabel": {
+    "message": "محدودية المعدل:",
+    "description": "تسمية حالة محدودية المعدل"
+  },
+  "consecutiveErrorsLabel": {
+    "message": "الأخطاء المتتالية:",
+    "description": "تسمية الأخطاء المتتالية"
+  },
+  "howItWorksTitle": {
+    "message": "كيف يعمل:",
+    "description": "عنوان قسم كيفية العمل"
+  },
+  "howItWorksStep1": {
+    "message": "أدخل عناوين الإيثيريوم و/أو البيتكوين الخاصة بك",
+    "description": "الخطوة الأولى في كيفية العمل"
+  },
+  "howItWorksStep2": {
+    "message": "أدخل مفتاح API إيثيرسكان (مطلوب للإيثيريوم)",
+    "description": "الخطوة الثانية في كيفية العمل"
+  },
+  "howItWorksStep3": {
+    "message": "فعّل المراقبة للإيثيريوم و/أو البيتكوين",
+    "description": "الخطوة الثالثة في كيفية العمل"
+  },
+  "howItWorksStep4": {
+    "message": "تفحص الإضافة المعاملات الجديدة كل دقيقة",
+    "description": "الخطوة الرابعة في كيفية العمل"
+  },
+  "howItWorksStep5": {
+    "message": "احصل على إشعارات المتصفح للمعاملات الجديدة",
+    "description": "الخطوة الخامسة في كيفية العمل"
+  },
+  "howItWorksStep6": {
+    "message": "انقر على الإشعارات لعرضها في مستكشف البلوكتشين",
+    "description": "الخطوة السادسة في كيفية العمل"
+  },
+  "privacyTitle": {
+    "message": "الخصوصية والأمان",
+    "description": "عنوان قسم الخصوصية"
+  },
+  "privacyLocal": {
+    "message": "✅ جميع البيانات محفوظة محلياً في متصفحك",
+    "description": "ملاحظة الخصوصية حول التخزين المحلي"
+  },
+  "privacyNoServers": {
+    "message": "✅ لا توجد خوادم خارجية - يعمل بالكامل من جانب العميل",
+    "description": "ملاحظة الخصوصية حول عدم وجود خوادم خارجية"
+  },
+  "privacyApiKey": {
+    "message": "✅ مفتاح API الخاص بك لا يُرسل أبداً إلى خوادم خارجية",
+    "description": "ملاحظة الخصوصية حول أمان مفتاح API"
+  },
+  "privacyHttps": {
+    "message": "✅ جميع استدعاءات API تستخدم اتصالات HTTPS آمنة",
+    "description": "ملاحظة الخصوصية حول HTTPS"
+  },
+  "footerText": {
+    "message": "آمن • تخزين محلي • لا توجد خوادم خارجية",
+    "description": "نص التذييل"
+  },
+  "validEthAddressMessage": {
+    "message": "✅ عنوان إيثيريوم صحيح",
+    "description": "رسالة عنوان إيثيريوم صحيح"
+  },
+  "invalidEthAddressMessage": {
+    "message": "❌ تنسيق عنوان إيثيريوم غير صحيح",
+    "description": "رسالة عنوان إيثيريوم غير صحيح"
+  },
+  "validBtcAddressMessage": {
+    "message": "✅ عنوان بيتكوين صحيح",
+    "description": "رسالة عنوان بيتكوين صحيح"
+  },
+  "invalidBtcAddressMessage": {
+    "message": "❌ تنسيق عنوان بيتكوين غير صحيح",
+    "description": "رسالة عنوان بيتكوين غير صحيح"
+  },
+  "noMonitoringEnabledError": {
+    "message": "يرجى تفعيل المراقبة لبلوكتشين واحد على الأقل",
+    "description": "خطأ عند عدم تفعيل المراقبة"
+  },
+  "enterEthAddressError": {
+    "message": "يرجى إدخال عنوان إيثيريوم",
+    "description": "خطأ عند عدم وجود عنوان إيثيريوم"
+  },
+  "invalidEthAddressError": {
+    "message": "يرجى إدخال عنوان إيثيريوم صحيح",
+    "description": "خطأ عند عدم صحة عنوان الإيثيريوم"
+  },
+  "enterBtcAddressError": {
+    "message": "يرجى إدخال عنوان بيتكوين",
+    "description": "خطأ عند عدم وجود عنوان بيتكوين"
+  },
+  "invalidBtcAddressError": {
+    "message": "يرجى إدخال عنوان بيتكوين صحيح",
+    "description": "خطأ عند عدم صحة عنوان البيتكوين"
+  },
+  "enterApiKeyError": {
+    "message": "يرجى إدخال مفتاح API إيثيرسكان الخاص بك",
+    "description": "خطأ عند عدم وجود مفتاح API"
+  },
+  "invalidApiKeyError": {
+    "message": "يرجى إدخال مفتاح API صحيح",
+    "description": "خطأ عند عدم صحة مفتاح API"
+  },
+  "configSavedSuccess": {
+    "message": "تم حفظ الإعدادات بنجاح!",
+    "description": "رسالة نجاح عند حفظ الإعدادات"
+  },
+  "configClearedSuccess": {
+    "message": "تم مسح الإعدادات بنجاح!",
+    "description": "رسالة نجاح عند مسح الإعدادات"
+  },
+  "saveError": {
+    "message": "خطأ في حفظ الإعدادات",
+    "description": "رسالة خطأ عند فشل الحفظ"
+  },
+  "clearError": {
+    "message": "خطأ في مسح الإعدادات",
+    "description": "رسالة خطأ عند فشل المسح"
+  },
+  "apiTestSuccess": {
+    "message": "نجح اختبار اتصال API",
+    "description": "رسالة نجاح لاختبار API"
+  },
+  "apiTestError": {
+    "message": "فشل اختبار اتصال API",
+    "description": "رسالة خطأ لاختبار API"
+  },
+  "newEthTransactionTitle": {
+    "message": "معاملة إيثيريوم جديدة",
+    "description": "عنوان إشعار معاملة إيثيريوم جديدة"
+  },
+  "ethTransactionDetailsMessage": {
+    "message": "الهاش: $1\nالمبلغ: $2\nالنوع: $3",
+    "description": "رسالة إشعار معاملة الإيثيريوم"
+  },
+  "newBtcTransactionTitle": {
+    "message": "معاملة بيتكوين جديدة",
+    "description": "عنوان إشعار معاملة بيتكوين جديدة"
+  },
+  "btcTransactionDetailsMessage": {
+    "message": "الهاش: $1\nالمبلغ: $2\nالنوع: $3",
+    "description": "رسالة إشعار معاملة البيتكوين"
+  },
+  "rateLimitTitle": {
+    "message": "محدودية المعدل",
+    "description": "عنوان إشعار محدودية المعدل"
+  },
+  "rateLimitMessage": {
+    "message": "تم الوصول إلى حد معدل API. تم إيقاف المراقبة لمدة دقيقة واحدة.",
+    "description": "رسالة إشعار محدودية المعدل"
+  },
+  "invalidApiKeyTitle": {
+    "message": "مفتاح API غير صحيح",
+    "description": "عنوان إشعار مفتاح API غير صحيح"
+  },
+  "invalidApiKeyMessage": {
+    "message": "مفتاح API الخاص بك غير صحيح. يرجى إدخال مفتاح صحيح.",
+    "description": "رسالة إشعار مفتاح API غير صحيح"
+  },
+  "btcValidGuidance": {
+    "message": "عنوان البيتكوين صالح. لبدء استخدام الإضافة، يرجى النقر على \"حفظ الإعدادات\".",
+    "description": "إرشاد المستخدم لحفظ الإعدادات بعد إدخال عنوان بيتكوين صالح"
+  }
+} 

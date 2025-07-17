@@ -1,0 +1,258 @@
+{
+  "appName": {
+    "message": "以太坊和比特币交易通知器",
+    "description": "扩展名称"
+  },
+  "configurationTitle": {
+    "message": "配置",
+    "description": "配置部分标题"
+  },
+  "ethereumTitle": {
+    "message": "以太坊 (ETH)",
+    "description": "以太坊部分标题"
+  },
+  "bitcoinTitle": {
+    "message": "比特币 (BTC)",
+    "description": "比特币部分标题"
+  },
+  "ethAddressLabel": {
+    "message": "以太坊地址:",
+    "description": "以太坊地址输入标签"
+  },
+  "btcAddressLabel": {
+    "message": "比特币地址:",
+    "description": "比特币地址输入标签"
+  },
+  "ethAddressPlaceholder": {
+    "message": "0x1234567890abcdef...",
+    "description": "以太坊地址占位符"
+  },
+  "btcAddressPlaceholder": {
+    "message": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh...",
+    "description": "比特币地址占位符"
+  },
+  "apiKeyTitle": {
+    "message": "Etherscan API密钥 (ETH必需)",
+    "description": "API密钥部分标题"
+  },
+  "apiKeyPlaceholder": {
+    "message": "您的Etherscan API密钥...",
+    "description": "API密钥输入占位符"
+  },
+  "getApiKeyLink": {
+    "message": "获取免费API密钥",
+    "description": "获取API密钥的链接文本"
+  },
+  "apiKeyNote": {
+    "message": "(以太坊监控必需)",
+    "description": "关于API密钥要求的说明"
+  },
+  "saveConfigButton": {
+    "message": "保存配置",
+    "description": "保存配置按钮文本"
+  },
+  "savingButton": {
+    "message": "保存中...",
+    "description": "保存按钮文本"
+  },
+  "clearConfigButton": {
+    "message": "清除全部",
+    "description": "清除配置按钮文本"
+  },
+  "monitoringTitle": {
+    "message": "监控状态",
+    "description": "监控状态部分标题"
+  },
+  "ethStatusLabel": {
+    "message": "ETH地址:",
+    "description": "以太坊状态标签"
+  },
+  "btcStatusLabel": {
+    "message": "BTC地址:",
+    "description": "比特币状态标签"
+  },
+  "apiKeyStatusLabel": {
+    "message": "API密钥:",
+    "description": "API密钥状态标签"
+  },
+  "ethMonitoringLabel": {
+    "message": "ETH监控:",
+    "description": "以太坊监控状态标签"
+  },
+  "btcMonitoringLabel": {
+    "message": "BTC监控:",
+    "description": "比特币监控状态标签"
+  },
+  "lastCheckLabel": {
+    "message": "最后检查:",
+    "description": "最后检查时间标签"
+  },
+  "errorTitle": {
+    "message": "错误状态",
+    "description": "错误状态部分标题"
+  },
+  "rateLimitLabel": {
+    "message": "速率限制:",
+    "description": "速率限制状态标签"
+  },
+  "consecutiveErrorsLabel": {
+    "message": "连续错误:",
+    "description": "连续错误标签"
+  },
+  "howItWorksTitle": {
+    "message": "工作原理:",
+    "description": "工作原理部分标题"
+  },
+  "howItWorksStep1": {
+    "message": "输入您的以太坊和/或比特币地址",
+    "description": "工作原理第1步"
+  },
+  "howItWorksStep2": {
+    "message": "输入您的Etherscan API密钥 (ETH必需)",
+    "description": "工作原理第2步"
+  },
+  "howItWorksStep3": {
+    "message": "启用ETH和/或BTC的监控",
+    "description": "工作原理第3步"
+  },
+  "howItWorksStep4": {
+    "message": "扩展每分钟检查新交易",
+    "description": "工作原理第4步"
+  },
+  "howItWorksStep5": {
+    "message": "获取新交易的浏览器通知",
+    "description": "工作原理第5步"
+  },
+  "howItWorksStep6": {
+    "message": "点击通知在区块链浏览器中查看",
+    "description": "工作原理第6步"
+  },
+  "privacyTitle": {
+    "message": "隐私和安全",
+    "description": "隐私部分标题"
+  },
+  "privacyLocal": {
+    "message": "✅ 所有数据本地存储在您的浏览器中",
+    "description": "关于本地存储的隐私说明"
+  },
+  "privacyNoServers": {
+    "message": "✅ 无外部服务器 - 完全客户端工作",
+    "description": "关于无外部服务器的隐私说明"
+  },
+  "privacyApiKey": {
+    "message": "✅ 您的API密钥从不发送到外部服务器",
+    "description": "关于API密钥安全的隐私说明"
+  },
+  "privacyHttps": {
+    "message": "✅ 所有API调用使用安全HTTPS连接",
+    "description": "关于HTTPS的隐私说明"
+  },
+  "footerText": {
+    "message": "安全 • 本地存储 • 无外部服务器",
+    "description": "页脚文本"
+  },
+  "validEthAddressMessage": {
+    "message": "✅ 有效的以太坊地址",
+    "description": "有效以太坊地址消息"
+  },
+  "invalidEthAddressMessage": {
+    "message": "❌ 无效的以太坊地址格式",
+    "description": "无效以太坊地址消息"
+  },
+  "validBtcAddressMessage": {
+    "message": "✅ 有效的比特币地址",
+    "description": "有效比特币地址消息"
+  },
+  "invalidBtcAddressMessage": {
+    "message": "❌ 无效的比特币地址格式",
+    "description": "无效比特币地址消息"
+  },
+  "noMonitoringEnabledError": {
+    "message": "请至少为一个区块链启用监控",
+    "description": "未启用监控时的错误"
+  },
+  "enterEthAddressError": {
+    "message": "请输入以太坊地址",
+    "description": "缺少以太坊地址时的错误"
+  },
+  "invalidEthAddressError": {
+    "message": "请输入有效的以太坊地址",
+    "description": "以太坊地址无效时的错误"
+  },
+  "enterBtcAddressError": {
+    "message": "请输入比特币地址",
+    "description": "缺少比特币地址时的错误"
+  },
+  "invalidBtcAddressError": {
+    "message": "请输入有效的比特币地址",
+    "description": "比特币地址无效时的错误"
+  },
+  "enterApiKeyError": {
+    "message": "请输入您的Etherscan API密钥",
+    "description": "缺少API密钥时的错误"
+  },
+  "invalidApiKeyError": {
+    "message": "请输入有效的API密钥",
+    "description": "API密钥无效时的错误"
+  },
+  "configSavedSuccess": {
+    "message": "配置保存成功!",
+    "description": "保存配置成功消息"
+  },
+  "configClearedSuccess": {
+    "message": "配置清除成功!",
+    "description": "清除配置成功消息"
+  },
+  "saveError": {
+    "message": "保存配置时出错",
+    "description": "保存失败时的错误消息"
+  },
+  "clearError": {
+    "message": "清除配置时出错",
+    "description": "清除失败时的错误消息"
+  },
+  "apiTestSuccess": {
+    "message": "API连接测试成功",
+    "description": "API测试成功消息"
+  },
+  "apiTestError": {
+    "message": "API连接测试失败",
+    "description": "API测试错误消息"
+  },
+  "newEthTransactionTitle": {
+    "message": "新的以太坊交易",
+    "description": "新以太坊交易通知标题"
+  },
+  "ethTransactionDetailsMessage": {
+    "message": "哈希: $1\n金额: $2\n类型: $3",
+    "description": "以太坊交易通知消息"
+  },
+  "newBtcTransactionTitle": {
+    "message": "新的比特币交易",
+    "description": "新比特币交易通知标题"
+  },
+  "btcTransactionDetailsMessage": {
+    "message": "哈希: $1\n金额: $2\n类型: $3",
+    "description": "比特币交易通知消息"
+  },
+  "rateLimitTitle": {
+    "message": "速率限制",
+    "description": "速率限制通知标题"
+  },
+  "rateLimitMessage": {
+    "message": "已达到API速率限制。监控暂停1分钟。",
+    "description": "速率限制通知消息"
+  },
+  "invalidApiKeyTitle": {
+    "message": "无效的API密钥",
+    "description": "无效API密钥通知标题"
+  },
+  "invalidApiKeyMessage": {
+    "message": "您的API密钥无效。请输入有效密钥。",
+    "description": "无效API密钥通知消息"
+  },
+  "btcValidGuidance": {
+    "message": "比特币地址有效。要开始使用扩展程序，请点击“保存设置”。",
+    "description": "用户在输入有效比特币地址后保存设置的提示"
+  }
+} 

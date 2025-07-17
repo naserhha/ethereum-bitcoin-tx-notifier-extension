@@ -1,0 +1,258 @@
+{
+  "appName": {
+    "message": "Уведомитель транзакций Ethereum и Bitcoin",
+    "description": "Название расширения"
+  },
+  "configurationTitle": {
+    "message": "Конфигурация",
+    "description": "Заголовок раздела конфигурации"
+  },
+  "ethereumTitle": {
+    "message": "Ethereum (ETH)",
+    "description": "Заголовок раздела Ethereum"
+  },
+  "bitcoinTitle": {
+    "message": "Bitcoin (BTC)",
+    "description": "Заголовок раздела Bitcoin"
+  },
+  "ethAddressLabel": {
+    "message": "Адрес Ethereum:",
+    "description": "Метка поля адреса Ethereum"
+  },
+  "btcAddressLabel": {
+    "message": "Адрес Bitcoin:",
+    "description": "Метка поля адреса Bitcoin"
+  },
+  "ethAddressPlaceholder": {
+    "message": "0x1234567890abcdef...",
+    "description": "Плейсхолдер адреса Ethereum"
+  },
+  "btcAddressPlaceholder": {
+    "message": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh...",
+    "description": "Плейсхолдер адреса Bitcoin"
+  },
+  "apiKeyTitle": {
+    "message": "Ключ API Etherscan (требуется для ETH)",
+    "description": "Заголовок раздела ключа API"
+  },
+  "apiKeyPlaceholder": {
+    "message": "Ваш ключ API Etherscan...",
+    "description": "Плейсхолдер ключа API"
+  },
+  "getApiKeyLink": {
+    "message": "Получить бесплатный ключ API",
+    "description": "Текст ссылки для получения ключа API"
+  },
+  "apiKeyNote": {
+    "message": "(требуется для мониторинга Ethereum)",
+    "description": "Примечание о требовании ключа API"
+  },
+  "saveConfigButton": {
+    "message": "Сохранить конфигурацию",
+    "description": "Текст кнопки сохранения конфигурации"
+  },
+  "savingButton": {
+    "message": "Сохранение...",
+    "description": "Текст кнопки при сохранении"
+  },
+  "clearConfigButton": {
+    "message": "Очистить все",
+    "description": "Текст кнопки очистки конфигурации"
+  },
+  "monitoringTitle": {
+    "message": "Статус мониторинга",
+    "description": "Заголовок раздела статуса мониторинга"
+  },
+  "ethStatusLabel": {
+    "message": "Адрес ETH:",
+    "description": "Метка статуса Ethereum"
+  },
+  "btcStatusLabel": {
+    "message": "Адрес BTC:",
+    "description": "Метка статуса Bitcoin"
+  },
+  "apiKeyStatusLabel": {
+    "message": "Ключ API:",
+    "description": "Метка статуса ключа API"
+  },
+  "ethMonitoringLabel": {
+    "message": "Мониторинг ETH:",
+    "description": "Метка статуса мониторинга Ethereum"
+  },
+  "btcMonitoringLabel": {
+    "message": "Мониторинг BTC:",
+    "description": "Метка статуса мониторинга Bitcoin"
+  },
+  "lastCheckLabel": {
+    "message": "Последняя проверка:",
+    "description": "Метка времени последней проверки"
+  },
+  "errorTitle": {
+    "message": "Статус ошибок",
+    "description": "Заголовок раздела статуса ошибок"
+  },
+  "rateLimitLabel": {
+    "message": "Ограничение скорости:",
+    "description": "Метка статуса ограничения скорости"
+  },
+  "consecutiveErrorsLabel": {
+    "message": "Последовательные ошибки:",
+    "description": "Метка последовательных ошибок"
+  },
+  "howItWorksTitle": {
+    "message": "Как это работает:",
+    "description": "Заголовок раздела как это работает"
+  },
+  "howItWorksStep1": {
+    "message": "Введите ваши адреса Ethereum и/или Bitcoin",
+    "description": "Шаг 1 как это работает"
+  },
+  "howItWorksStep2": {
+    "message": "Введите ваш ключ API Etherscan (требуется для ETH)",
+    "description": "Шаг 2 как это работает"
+  },
+  "howItWorksStep3": {
+    "message": "Включите мониторинг для ETH и/или BTC",
+    "description": "Шаг 3 как это работает"
+  },
+  "howItWorksStep4": {
+    "message": "Расширение проверяет новые транзакции каждую минуту",
+    "description": "Шаг 4 как это работает"
+  },
+  "howItWorksStep5": {
+    "message": "Получайте уведомления браузера о новых транзакциях",
+    "description": "Шаг 5 как это работает"
+  },
+  "howItWorksStep6": {
+    "message": "Нажмите на уведомления для просмотра в обозревателе блокчейна",
+    "description": "Шаг 6 как это работает"
+  },
+  "privacyTitle": {
+    "message": "Конфиденциальность и безопасность",
+    "description": "Заголовок раздела конфиденциальности"
+  },
+  "privacyLocal": {
+    "message": "✅ Все данные хранятся локально в вашем браузере",
+    "description": "Примечание о конфиденциальности локального хранения"
+  },
+  "privacyNoServers": {
+    "message": "✅ Нет внешних серверов - работает полностью на стороне клиента",
+    "description": "Примечание о конфиденциальности отсутствия внешних серверов"
+  },
+  "privacyApiKey": {
+    "message": "✅ Ваш ключ API никогда не отправляется на внешние серверы",
+    "description": "Примечание о конфиденциальности безопасности ключа API"
+  },
+  "privacyHttps": {
+    "message": "✅ Все вызовы API используют безопасные HTTPS соединения",
+    "description": "Примечание о конфиденциальности HTTPS"
+  },
+  "footerText": {
+    "message": "Безопасно • Локальное хранение • Нет внешних серверов",
+    "description": "Текст футера"
+  },
+  "validEthAddressMessage": {
+    "message": "✅ Действительный адрес Ethereum",
+    "description": "Сообщение действительного адреса Ethereum"
+  },
+  "invalidEthAddressMessage": {
+    "message": "❌ Недействительный формат адреса Ethereum",
+    "description": "Сообщение недействительного адреса Ethereum"
+  },
+  "validBtcAddressMessage": {
+    "message": "✅ Действительный адрес Bitcoin",
+    "description": "Сообщение действительного адреса Bitcoin"
+  },
+  "invalidBtcAddressMessage": {
+    "message": "❌ Недействительный формат адреса Bitcoin",
+    "description": "Сообщение недействительного адреса Bitcoin"
+  },
+  "noMonitoringEnabledError": {
+    "message": "Пожалуйста, включите мониторинг хотя бы для одного блокчейна",
+    "description": "Ошибка при отсутствии включенного мониторинга"
+  },
+  "enterEthAddressError": {
+    "message": "Пожалуйста, введите адрес Ethereum",
+    "description": "Ошибка при отсутствии адреса Ethereum"
+  },
+  "invalidEthAddressError": {
+    "message": "Пожалуйста, введите действительный адрес Ethereum",
+    "description": "Ошибка при недействительном адресе Ethereum"
+  },
+  "enterBtcAddressError": {
+    "message": "Пожалуйста, введите адрес Bitcoin",
+    "description": "Ошибка при отсутствии адреса Bitcoin"
+  },
+  "invalidBtcAddressError": {
+    "message": "Пожалуйста, введите действительный адрес Bitcoin",
+    "description": "Ошибка при недействительном адресе Bitcoin"
+  },
+  "enterApiKeyError": {
+    "message": "Пожалуйста, введите ваш ключ API Etherscan",
+    "description": "Ошибка при отсутствии ключа API"
+  },
+  "invalidApiKeyError": {
+    "message": "Пожалуйста, введите действительный ключ API",
+    "description": "Ошибка при недействительном ключе API"
+  },
+  "configSavedSuccess": {
+    "message": "Конфигурация успешно сохранена!",
+    "description": "Сообщение об успехе при сохранении конфигурации"
+  },
+  "configClearedSuccess": {
+    "message": "Конфигурация успешно очищена!",
+    "description": "Сообщение об успехе при очистке конфигурации"
+  },
+  "saveError": {
+    "message": "Ошибка сохранения конфигурации",
+    "description": "Сообщение об ошибке при неудачном сохранении"
+  },
+  "clearError": {
+    "message": "Ошибка очистки конфигурации",
+    "description": "Сообщение об ошибке при неудачной очистке"
+  },
+  "apiTestSuccess": {
+    "message": "Тест подключения API успешен",
+    "description": "Сообщение об успехе для теста API"
+  },
+  "apiTestError": {
+    "message": "Тест подключения API не удался",
+    "description": "Сообщение об ошибке для теста API"
+  },
+  "newEthTransactionTitle": {
+    "message": "Новая транзакция Ethereum",
+    "description": "Заголовок уведомления о новой транзакции Ethereum"
+  },
+  "ethTransactionDetailsMessage": {
+    "message": "Хеш: $1\nСумма: $2\nТип: $3",
+    "description": "Сообщение уведомления о транзакции Ethereum"
+  },
+  "newBtcTransactionTitle": {
+    "message": "Новая транзакция Bitcoin",
+    "description": "Заголовок уведомления о новой транзакции Bitcoin"
+  },
+  "btcTransactionDetailsMessage": {
+    "message": "Хеш: $1\nСумма: $2\nТип: $3",
+    "description": "Сообщение уведомления о транзакции Bitcoin"
+  },
+  "rateLimitTitle": {
+    "message": "Ограничение скорости",
+    "description": "Заголовок уведомления об ограничении скорости"
+  },
+  "rateLimitMessage": {
+    "message": "Достигнут лимит скорости API. Мониторинг приостановлен на 1 минуту.",
+    "description": "Сообщение уведомления об ограничении скорости"
+  },
+  "invalidApiKeyTitle": {
+    "message": "Недействительный ключ API",
+    "description": "Заголовок уведомления о недействительном ключе API"
+  },
+  "invalidApiKeyMessage": {
+    "message": "Ваш ключ API недействителен. Пожалуйста, введите действительный ключ.",
+    "description": "Сообщение уведомления о недействительном ключе API"
+  },
+  "btcValidGuidance": {
+    "message": "Биткоин-адрес действителен. Чтобы начать работу с расширением, пожалуйста, нажмите 'Сохранить конфигурацию'.",
+    "description": "Инструкция пользователю для сохранения настроек после ввода действительного BTC-адреса"
+  }
+} 

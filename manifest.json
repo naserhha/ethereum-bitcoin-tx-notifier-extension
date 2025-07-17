@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Ethereum & Bitcoin Crypto Transaction Notifier",
+  "version": "1.0.0",
+  "description": "Monitor Ethereum and Bitcoin wallet addresses and get notified of new transactions",
+  "author": "Mohammad Nasser Haji Hashemabad",
+  "homepage_url": "https://crypto-transaction.mohammadnasser.com/",
+  "permissions": [
+    "notifications",
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://api.etherscan.io/*",
+    "https://blockstream.info/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Ethereum & Bitcoin Crypto Transaction Notifier"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png",
+    "512": "icons/icon512.png"
+  },
+  "default_locale": "en"
+} 
