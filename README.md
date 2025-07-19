@@ -2,7 +2,7 @@
 
 A Chrome Extension (Manifest V3) that monitors both **Ethereum** and **Bitcoin** wallet addresses and sends browser notifications when new transactions are detected.
 
-[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome)](https://chrome.google.com/webstore)
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome)](https://chromewebstore.google.com/detail/ethereum-bitcoin-crypto-t/ajmjebdaemobbnlaedjbgleokcpmebjk)
 [![Ethereum](https://img.shields.io/badge/Ethereum-ETH-orange?logo=ethereum)](https://ethereum.org/)
 [![Bitcoin](https://img.shields.io/badge/Bitcoin-BTC-yellow?logo=bitcoin)](https://bitcoin.org/)
 [![Open Source](https://img.shields.io/badge/Open-Source-green?logo=github)](https://github.com/nasserhaji/ethereum-bitcoin-crypto-transaction-notifier)
