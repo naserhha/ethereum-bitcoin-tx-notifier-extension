@@ -5,7 +5,7 @@ A Chrome Extension (Manifest V3) that monitors both **Ethereum** and **Bitcoin**
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome)](https://chromewebstore.google.com/detail/ethereum-bitcoin-crypto-t/ajmjebdaemobbnlaedjbgleokcpmebjk)
 [![Ethereum](https://img.shields.io/badge/Ethereum-ETH-orange?logo=ethereum)](https://ethereum.org/)
 [![Bitcoin](https://img.shields.io/badge/Bitcoin-BTC-yellow?logo=bitcoin)](https://bitcoin.org/)
-[![Open Source](https://img.shields.io/badge/Open-Source-green?logo=github)](https://github.com/nasserhaji/ethereum-bitcoin-crypto-transaction-notifier)
+[![Open Source](https://img.shields.io/badge/Open-Source-green?logo=github)](https://github.com/naserhha/ethereum-bitcoin-crypto-transaction-notifier)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 **Tags:** `chrome-extension` `ethereum` `bitcoin` `crypto` `blockchain` `transaction` `notifier` `wallet` `notifications` `open-source`
@@ -32,7 +32,7 @@ A Chrome Extension (Manifest V3) that monitors both **Ethereum** and **Bitcoin**
 
 ### 1. Download Extension Files
 ```bash
-git clone https://github.com/nasserhaji/ethereum-bitcoin-crypto-transaction-notifier
+git clone https://github.com/naserhha/ethereum-bitcoin-crypto-transaction-notifier
 cd ethereum-bitcoin-crypto-transaction-notifier
 ```
 
@@ -241,7 +241,7 @@ A Chrome Extension (Manifest V3) that monitors both **Ethereum** and **Bitcoin**
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=google-chrome)](https://chrome.google.com/webstore)
 [![Ethereum](https://img.shields.io/badge/Ethereum-ETH-orange?logo=ethereum)](https://ethereum.org/)
 [![Bitcoin](https://img.shields.io/badge/Bitcoin-BTC-yellow?logo=bitcoin)](https://bitcoin.org/)
-[![Open Source](https://img.shields.io/badge/Open-Source-green?logo=github)](https://github.com/nasserhaji/ethereum-bitcoin-crypto-transaction-notifier)
+[![Open Source](https://img.shields.io/badge/Open-Source-green?logo=github)](https://github.com/naserhha/ethereum-bitcoin-crypto-transaction-notifier)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 **Tags:** `chrome-extension` `ethereum` `bitcoin` `crypto` `blockchain` `transaction` `notifier` `wallet` `notifications` `open-source`
@@ -268,7 +268,7 @@ A Chrome Extension (Manifest V3) that monitors both **Ethereum** and **Bitcoin**
 
 ### 1. Download Extension Files
 ```bash
-git clone https://github.com/nasserhaji/ethereum-bitcoin-crypto-transaction-notifier
+git clone https://github.com/naserhha/ethereum-bitcoin-crypto-transaction-notifier
 cd ethereum-bitcoin-crypto-transaction-notifier
 ```
 
@@ -477,11 +477,11 @@ Built with ❤️ for the blockchain community
 
 **Mohammad Nasser Haji Hashemabad**
 
-- **LinkedIn**: [@nasserhaji](https://ir.linkedin.com/in/nasserhaji)
-- **GitHub**: [@nasserhaji](https://github.com/nasserhaji)
+- **LinkedIn**: [@naserhha](https://ir.linkedin.com/in/naserhha)
+- **GitHub**: [@naserhha](https://github.com/naserhha)
 - **Website**: [mohammadnasser.com](https://mohammadnasser.com/)
 - **Extension Homepage**: [crypto-transaction.mohammadnasser.com](https://crypto-transaction.mohammadnasser.com/)
-- **Repository**: [ethereum-bitcoin-crypto-transaction-notifier](https://github.com/nasserhaji/ethereum-bitcoin-crypto-transaction-notifier) 
+- **Repository**: [ethereum-bitcoin-crypto-transaction-notifier](https://github.com/naserhha/ethereum-bitcoin-crypto-transaction-notifier) 
 
 ---
 
@@ -550,10 +550,10 @@ Built with ❤️ for the blockchain community
 
 **Mohammad Nasser Haji Hashemabad**
 
-- **LinkedIn**: [@nasserhaji](https://ir.linkedin.com/in/nasserhaji)
-- **GitHub**: [@nasserhaji](https://github.com/nasserhaji)
+- **LinkedIn**: [@naserhha](https://ir.linkedin.com/in/naserhha)
+- **GitHub**: [@naserhha](https://github.com/naserhha)
 - **Website**: [mohammadnasser.com](https://mohammadnasser.com/)
 - **Extension Homepage**: [crypto-transaction.mohammadnasser.com](https://crypto-transaction.mohammadnasser.com/)
-- **Repository**: [ethereum-bitcoin-crypto-transaction-notifier](https://github.com/nasserhaji/ethereum-bitcoin-crypto-transaction-notifier) 
+- **Repository**: [ethereum-bitcoin-crypto-transaction-notifier](https://github.com/naserhha/ethereum-bitcoin-crypto-transaction-notifier) 
 
 ## Branch V1
